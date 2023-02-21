@@ -41,7 +41,7 @@ class HomePage extends StatelessWidget {
                     onSubmit: () {
                       Future.delayed(
                         Duration(seconds: 1),
-                        () => _key.currentState.reset(),
+                        () => _key.currentState?.reset(),
                       );
                     },
                   ),
